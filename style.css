@@ -38,6 +38,10 @@
     background-color: #ddd;
     color: black;
   }
+  .article{
+    display: flex;
+    width: 100%;
+  }
   img{
     width: auto;
     height: 500px;
