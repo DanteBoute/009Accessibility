@@ -4,6 +4,7 @@
 }  
 main{
     padding: 20px;
+    box-sizing: border-box;
   }
 .container{
     display: flex;
@@ -18,7 +19,7 @@ button{
     margin-bottom: 1%;
     border: none;
 }
-h1, h2, h3{
+h1, h2, h3, p{
     text-align: center;
 }
 h1{
@@ -26,12 +27,19 @@ h1{
 }
 .blog_container{
     display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
-.titleText{
-    width: 150px;
-    height: auto;
+.blogImage>img{
+    max-width: 100%;
+    max-height: 100%;
+    align-self: flex-end;
 }
 .blogImage{
-    width: 300px;
-    height: auto;
+    flex: 2;
+}
+.titelText{
+    flex: 1;
 }
