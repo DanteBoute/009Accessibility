@@ -5,3 +5,33 @@
 main{
     padding: 20px;
   }
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1;
+}
+button{
+    width: 120px;
+    height: 80px;
+    background-color: lightblue;
+    margin-bottom: 1%;
+    border: none;
+}
+h1, h2, h3{
+    text-align: center;
+}
+h1{
+    padding-top: 2%;
+}
+.blog_container{
+    display: flex;
+}
+.titleText{
+    width: 150px;
+    height: auto;
+}
+.blogImage{
+    width: 300px;
+    height: auto;
+}
