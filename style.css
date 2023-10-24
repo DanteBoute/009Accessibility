@@ -1,70 +1,26 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-/*# sourceMappingURL=style.css.map */
-.bg-img {
-    /* The image used */
-    background-image: url("images/banner1.png");
-  
-    min-height: 380px;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /* Needed to position the navbar */
-  position: relative;
-}
-.container {
-    position: absolute;
-    width: auto;
-  }
-  /* The navbar */
-  .navigation {
-    overflow: hidden;
-  }
-  
-  /* Navbar links */
-  .navigation a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
-  }
-  
-  .navigation a:hover {
-    background-color: #ddd;
-  }
-  .introduction{
-    display: flex;
-  }
-  .intro_text{
-    flex: 2;
-    width: 50%;
-  }
-  .article_image{
-    float: right;
-    flex: 1;
-    width: auto;
-    height: 400px;
-  }
-.container2{
-    display: flex;
+.containter_introduction{
+    display:flex;
+    margin-top: 2%;
+    flex-wrap: wrap;
     justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+    border: black;
 }
-.box1{
-    width: 200px;
-    height: 200px;
+.box{
+    min-height: 300px;
+    min-width: 200px;
+    border-style: dotted;
+    
 }
-.box2{
-    width: 200px;
-    height: 200px;  
+.containter-icons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
 }
-.box3{
-    width: 200px;
-    height: 200px;
+button{
+    border-radius: 50%;
+    text-decoration: none;
 }
