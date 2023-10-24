@@ -1,31 +1,22 @@
-* {
-    box-sizing: border-box;
-}
 .logo_header{
     width: 100px;
     height: auto;
-}
+}  
+main{
+    padding: 20px;
+  }
 .containter_introduction{
     display:flex;
     margin-top: 2%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     padding: 30px;
-    border: solid
 }
-.box{
-    min-width: 200px;
-    
-}
-.containter-icons{
-    border: solid;
-    border-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
+.icons{
+    width: 300px;
+    height: auto;
+    margin-top: 2%;
 }
 button{
     text-align: center;
