@@ -7,7 +7,6 @@ main{
   }
 .containter_introduction{
     display:flex;
-    margin-top: 2%;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
