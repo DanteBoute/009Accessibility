@@ -1,37 +1,99 @@
-.logo_header{
-    width: 100px;
-    height: auto;
+.logo_header {
+  width: 100px;
+  height: auto;
 }
 
-.card{
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-      margin: auto;
-    }
-main{
-    background-image: url("images/plane\ background.png");
-    background-size: 110%;
+.card {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+  margin: auto;
 }
-h1{
-    text-align: center;
-    background-color: white;
+
+main {
+  background-image: url("images/plane\ background.png");
+  background-size: 110%;
 }
+
+h1 {
+  text-align: center;
+  background-color: white;
+}
+
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    position: static;
-    left: 0;
-    bottom: 0;
-    margin-bottom: 0;
-    width: 100%;
-    background-color:#f2f2f2;
-    color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: static;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: rgb(0, 0, 0);
+}
+
+.footer_right {
+  margin-right: 10px;
+}
+
+.footer_left {
+  margin-left: 10px;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: white;
+  height: 500px;
+  color: black;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: gray;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (min-width: 800px) {
+  .topnav a.icon {
+    display: none !important;
   }
 
-  .footer_right{
-    margin-right: 10px;
+  .topnav #myLinks {
+    display: block;
   }
-  .footer_left{
-    margin-left: 10px;
-  }
+}

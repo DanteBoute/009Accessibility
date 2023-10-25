@@ -1,147 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travelblog</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="coming_soon.css" type="text/css" rel="stylesheet" />
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travelblog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="coming_soon.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="navbar.js"></script>
 </head>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <img class="logo_header" src="images/Logo.png" alt="Logo">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          <li class="nav-item">
-            <a class="nav-link" href="blog1.html">blog</a>
-          </li>          
-        </li>
-          <li class="nav-item">
-            <a class="nav-link" href="coming_soon.html">coming soon</a>
-          </li>
-          <li class="nav-item dropdown">
-          </li>
-        </ul>
-      </div>
+
+<body>
+
+
+  <nav class="topnav">
+    <a href="#home" class="active"><img class="logo_header" src="images/Logo.png" alt="Logo"></a>
+    <div id="myLinks">
+      <a href="index.html">Home</a>
+      <a href="blog1.html">Blogpost</a>
+      <a href="coming_soon.html">Coming Soon</a>
     </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </nav>
   <main>
-  <h1>Where to next?</h1>
-  <div class="container p-3 flex-row">
-    <div class="row row-cols-2 g-4 p-3 flex-wrap">
-  
-  <div class="card">
-    <img class="card-img-top" src="images/japan.png" alt="Japan">
-    <div class="card-body">
-      <h5 class="card-title">Japan</h5>
-      <p class="card-text">
-        Japan, a land where ancient traditions harmoniously coexist with cutting-edge technology, beckons with its captivating blend of timeless culture and modern innovation. 
-        From historic temples to neon-lit cityscapes, Japan offers a diverse and unforgettable experience.</p>
-    </div>
-    <div class="card-footer">
-      <h5>Date:</h5>
-      <p>27/02/2027</p>
-    </div>
-
-    <div class="card">
-      <img class="card-img-top" src="images/sri lanka.png" alt="Sri Lanka">
-      <div class="card-body">
-        <h5 class="card-title">Sri Lanka</h5>
-        <p class="card-text">
-          Sri Lanka, a tropical paradise in the Indian Ocean, entices travelers with its lush landscapes, pristine beaches, and a rich 
-          tapestry of culture. 
-          From ancient temples to idyllic tea plantations, this island nation offers a vibrant and enchanting journey.</p>
-      </div>
-      <div class="card-footer">
-        <h5>Date:</h5>
-        <p>31/12/2029</p>
-      </div>
-
-      <div class="card">
-        <img class="card-img-top" src="images/scotland.png" alt="Scotland">
-        <div class="card-body">
-          <h5 class="card-title">Scotland</h5>
-          <p class="card-text">
-            Scotland, a land of rugged landscapes and rich history, captivates with its dramatic highlands, historic castles, and vibrant cultural traditions. 
-            From the haunting beauty of Loch Ness to the lively streets of Edinburgh, Scotland offers a diverse and unforgettable experience.</p>
-        </div>
-        <div class="card-footer">
-          <h5>Date:</h5>
-          <p>22/05/2031</p>
-        </div>
+    <h1>Where to next?</h1>
+    <div class="container p-3 flex-row">
+      <div class="row row-cols-2 g-4 p-3 flex-wrap">
 
         <div class="card">
-          <img class="card-img-top" src="images/ireland.png" alt="ireland">
+          <img class="card-img-top" src="images/japan.png" alt="Japan">
           <div class="card-body">
-            <h5 class="card-title">Ireland</h5>
+            <h5 class="card-title">Japan</h5>
             <p class="card-text">
-              Ireland, a land of breathtaking green landscapes, folklore, and warm hospitality, enchants visitors with its rolling hills, ancient castles, and lively pub culture. 
-              From the Cliffs of Moher to the bustling streets of Dublin, Ireland offers a charming and memorable journey.</p>
+              Japan, a land where ancient traditions harmoniously coexist with cutting-edge technology, beckons with its
+              captivating blend of timeless culture and modern innovation.
+              From historic temples to neon-lit cityscapes, Japan offers a diverse and unforgettable experience.</p>
           </div>
           <div class="card-footer">
             <h5>Date:</h5>
-            <p>23/07/2033</p>
-
+            <p>27/02/2027</p>
           </div>
+
           <div class="card">
-            <img class="card-img-top" src="images/south afrika.png" alt="South-Africa">
+            <img class="card-img-top" src="images/sri lanka.png" alt="Sri Lanka">
             <div class="card-body">
-              <h5 class="card-title">South-Africa</h5>
+              <h5 class="card-title">Sri Lanka</h5>
               <p class="card-text">
-                South Africa, a diverse and captivating nation, beckons with its stunning wildlife, vibrant cities, and a rich 
-                tapestry of cultures. From safari adventures in Kruger National Park to the iconic 
-                Table Mountain in Cape Town, South Africa offers a multifaceted and unforgettable experience.</p>
+                Sri Lanka, a tropical paradise in the Indian Ocean, entices travelers with its lush landscapes, pristine
+                beaches, and a rich
+                tapestry of culture.
+                From ancient temples to idyllic tea plantations, this island nation offers a vibrant and enchanting
+                journey.</p>
             </div>
             <div class="card-footer">
               <h5>Date:</h5>
-              <p>26/06/2036</p>
+              <p>31/12/2029</p>
             </div>
-  </div>
-</main>
-<footer class="cotainer_footer">
-  <ul class="footer_left">
-    <lt style="font-weight: bold;">Contact information</lt>
-    <li>
-      Email: contact@yourtravelblog.com
-    </li>
-    <li>
-      Phone: +1 (123) 456-7890
-    </li>
-    <li>
-      Address: 123 Adventure Lane, Wanderlust City, WT 12345
-    </li>
-  </ul>
-  <ul class="footer_middle">
-    <lt style="font-weight: bold;">Legal Pages</lt>
-    <li>
-      About Us
-    </li>
-    <li>
-      Privacy Policy
-    </li>
-    <li>
-      Terms of Use
-    </li>
-  </ul>
-</ul>
-<ul class="footer_right">
-  <lt style="font-weight: bold;">
-  Popular Travels
-  </lt>
-  <li>
-    <a href="blog1.html">Slovenia</a>
-  </li>
-  <li>
-    <a href="blog1.html">Iceland</a>
-  </li>
-  <li>
-    <a href="blog1.html">Turkey</a>
-  </li>
-</ul>
-</footer>
+
+            <div class="card">
+              <img class="card-img-top" src="images/scotland.png" alt="Scotland">
+              <div class="card-body">
+                <h5 class="card-title">Scotland</h5>
+                <p class="card-text">
+                  Scotland, a land of rugged landscapes and rich history, captivates with its dramatic highlands,
+                  historic castles, and vibrant cultural traditions.
+                  From the haunting beauty of Loch Ness to the lively streets of Edinburgh, Scotland offers a diverse
+                  and unforgettable experience.</p>
+              </div>
+              <div class="card-footer">
+                <h5>Date:</h5>
+                <p>22/05/2031</p>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="images/ireland.png" alt="ireland">
+                <div class="card-body">
+                  <h5 class="card-title">Ireland</h5>
+                  <p class="card-text">
+                    Ireland, a land of breathtaking green landscapes, folklore, and warm hospitality, enchants visitors
+                    with its rolling hills, ancient castles, and lively pub culture.
+                    From the Cliffs of Moher to the bustling streets of Dublin, Ireland offers a charming and memorable
+                    journey.</p>
+                </div>
+                <div class="card-footer">
+                  <h5>Date:</h5>
+                  <p>23/07/2033</p>
+
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="images/south afrika.png" alt="South-Africa">
+                  <div class="card-body">
+                    <h5 class="card-title">South-Africa</h5>
+                    <p class="card-text">
+                      South Africa, a diverse and captivating nation, beckons with its stunning wildlife, vibrant
+                      cities, and a rich
+                      tapestry of cultures. From safari adventures in Kruger National Park to the iconic
+                      Table Mountain in Cape Town, South Africa offers a multifaceted and unforgettable experience.</p>
+                  </div>
+                  <div class="card-footer">
+                    <h5>Date:</h5>
+                    <p>26/06/2036</p>
+                  </div>
+                </div>
+  </main>
+  <footer class="cotainer_footer">
+    <ul class="footer_left">
+      <lt style="font-weight: bold;">Contact information</lt>
+      <li>
+        Email: contact@yourtravelblog.com
+      </li>
+      <li>
+        Phone: +1 (123) 456-7890
+      </li>
+      <li>
+        Address: 123 Adventure Lane, Wanderlust City, WT 12345
+      </li>
+    </ul>
+    <ul class="footer_middle">
+      <lt style="font-weight: bold;">Legal Pages</lt>
+      <li>
+        About Us
+      </li>
+      <li>
+        Privacy Policy
+      </li>
+      <li>
+        Terms of Use
+      </li>
+    </ul>
+    </ul>
+    <ul class="footer_right">
+      <lt style="font-weight: bold;">
+        Popular Travels
+      </lt>
+      <li>
+        <a href="blog1.html">Slovenia</a>
+      </li>
+      <li>
+        <a href="blog1.html">Iceland</a>
+      </li>
+      <li>
+        <a href="blog1.html">Turkey</a>
+      </li>
+    </ul>
+  </footer>
+</body>
