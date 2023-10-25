@@ -1,4 +1,30 @@
 .logo_header{
     width: 100px;
     height: auto;
-}  
+}
+
+.card{
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+      margin: auto;
+    }
+main{
+    background-image: url("images/plane\ background.png");
+    background-size: 110%;
+}
+h1{
+    text-align: center;
+    background-color: white;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: static;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    background-color:#f2f2f2;
+    color: rgb(0, 0, 0);
+  }
