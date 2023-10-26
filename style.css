@@ -7,7 +7,7 @@ main {
   padding: 20px;
 }
 
-.containter_introduction {
+.container_introduction {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -126,6 +126,23 @@ footer {
   color: black;
 }
 
+@media screen and (max-width: 800px) {
+
+  .footer_left,
+  .footer_right,
+  .footer_middle {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul a {
+  color: black;
+}
 @media screen and (min-width: 800px) {
   .topnav a.icon {
     display: none !important;
@@ -134,14 +151,4 @@ footer {
   .topnav #myLinks {
     display: block;
   }
-}
-.footer_left, .footer_right, .footer_middle{
-  width: 100%;
-  text-align: center;
-}
-ul{
-  list-style-type: none;
-}
-ul a{
-  color: black;
 }

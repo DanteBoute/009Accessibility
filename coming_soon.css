@@ -88,25 +88,33 @@ footer {
   color: black;
 }
 
-@media screen and (min-width: 600px) {
-  .topnav a.icon {
-    display: none !important;
-  }
+ul {
+  list-style-type: none;
+}
 
-  .topnav a {
-    display: block !important;
-  }
-  .footer_left, .footer_right, .footer_middle{
+ul a {
+  color: black;
+}
+
+h2 {
+  font-size: 25;
+}
+
+@media screen and (max-width: 800px) {
+
+  .footer_left,
+  .footer_right,
+  .footer_middle {
     width: 100%;
     text-align: center;
   }
 }
-ul{
-  list-style-type: none;
-}
-ul a{
-  color: black;
-}
-h2{
-  font-size: 25;
+@media screen and (min-width: 800px) {
+  .topnav a.icon {
+    display: none !important;
+  }
+
+  .topnav #myLinks {
+    display: block !important;
+  }
 }
