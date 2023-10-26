@@ -135,6 +135,10 @@ footer {
     display: block;
   }
 }
+.footer_left, .footer_right, .footer_middle{
+  width: 100%;
+  text-align: center;
+}
 ul{
   list-style-type: none;
 }

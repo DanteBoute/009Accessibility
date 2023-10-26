@@ -29,11 +29,26 @@ h1{
     max-width: 100%;
     max-height: 100%;
 }
+@media screen and (min-width: 750px){
 .blogImage{
     flex: 2;
 }
 .titelText{
     flex: 1;
+}
+}
+@media screen and (max-width: 750px){
+  .blogImage>img{
+    width: 100%;
+  }
+  .blog_container_reverse{
+    flex-direction: column-reverse;
+  }
+    .footer_left, .footer_right, .footer_middle{
+      width: 100%;
+      text-align: center;
+    }
+  
 }
 .blogContent{
     text-align: justify;
