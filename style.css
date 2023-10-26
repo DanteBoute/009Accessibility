@@ -105,7 +105,7 @@ footer {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 24px;
-  display: block;
+  display: flex;
 }
 
 .topnav a.icon {
@@ -152,6 +152,6 @@ ul a {
   }
 
   #myLinks {
-    display: block !important; 
+    display: flex !important; 
   }
 }

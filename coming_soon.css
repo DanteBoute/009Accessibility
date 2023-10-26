@@ -118,6 +118,6 @@ h2 {
   }
 
   #myLinks {
-    display: block !important;
+    display: flex !important;
   }
 }
