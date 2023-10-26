@@ -74,7 +74,7 @@ footer {
   right: 0;
   top: 0;
   font-size: 35px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 10px;
 }
 
@@ -93,7 +93,18 @@ footer {
     display: none !important;
   }
 
-  .topnav #myLinks {
-    display: block;
+  .topnav a {
+    display: block !important;
   }
+}
+@media screen and (max-width: 800px){
+  .topnav a {
+    display: block !important;
+  }
+}
+ul{
+  list-style-type: none;
+}
+ul a{
+  color: black;
 }

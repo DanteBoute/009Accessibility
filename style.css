@@ -15,7 +15,7 @@ main {
   padding: 30px;
 }
 
-.icons {
+.homepage_images {
   width: 300px;
   height: auto;
   margin-top: 2%;
@@ -134,4 +134,10 @@ footer {
   .topnav #myLinks {
     display: block;
   }
+}
+ul{
+  list-style-type: none;
+}
+ul a{
+  color: black;
 }

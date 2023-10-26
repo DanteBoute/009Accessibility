@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travelblog</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="style.css" type="text/css" rel="stylesheet" />
   <script src="navbar.js"></script>
 
@@ -14,7 +15,7 @@
 
 <body>
 
-
+<header>
   <nav class="topnav">
     <a href="#home" class="active"><img class="logo_header" src="images/Logo.png" alt="Logo"></a>
     <div id="myLinks">
@@ -27,6 +28,7 @@
     </a>
   </nav>
   <img src="images/banner1.png" class="img-fluid" alt="Banner Image">
+</header>
   <main>
     <div class="containter_introduction">
       <div class="box box1">
@@ -46,17 +48,16 @@
         <hr>
       </div>
 
-      <div class="container_icons">
-        <img class="icons" class="image1" src="images/Tent1.png" alt="couple holding hands while looking at sunset">
-        <img class="icons" class="image2" src="images/Auto1.png"
-          alt="couple standing next to a camper looking at waterfall">
-        <img class="icons" class="image3" src="images/Berg.png" alt="couple on high mountain">
-        <img class="icons" class="image3" src="images/waterval.png" alt="girl on edge of cliff looking at waterfall">
+      <div class="container_homepage_images">
+        <img class="homepage_images" class="image1" src="images/Tent1.png" alt="couple holding hands while looking at sunset">
+        <img class="homepage_images" class="image2" src="images/Auto1.png" alt="couple standing next to a camper looking at waterfall">
+        <img class="homepage_images" class="image3" src="images/Berg.png" alt="couple on high mountain">
+        <img class="homepage_images" class="image3" src="images/waterval.png" alt="girl on edge of cliff looking at waterfall">
       </div>
     </div>
 
-    <div class="container_contact">
-      <form>
+
+      <form class="container_contact">
 
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -70,23 +71,23 @@
         <input type="submit" value="Submit">
 
       </form>
-    </div>
+
   </main>
   <footer class="cotainer_footer">
     <ul class="footer_left">
-      <h5>Contact information</h5>
+      <li style="font-weight: bold;">Contact information</li>
       <li>
-        Email: contact@yourtravelblog.com
+        Email: contact@mytravelblog.com
       </li>
       <li>
         Phone: +1 (123) 456-7890
       </li>
       <li>
-        Address: 123 Adventure Lane, Wanderlust City, WT 12345
+        Address: 123 Adventure Lane, Ghent
       </li>
     </ul>
     <ul class="footer_middle">
-      <h5>Legal Pages</h5>
+      <li style="font-weight: bold;">Legal Pages</li>
       <li>
         About Us
       </li>
@@ -99,7 +100,7 @@
     </ul>
     </ul>
     <ul class="footer_right">
-      <h5>Popular Travels</h5>
+      <li style="font-weight: bold;">Popular Travels</li>
       <li>
         <a href="blog1.html">Slovenia</a>
       </li>
