@@ -142,8 +142,8 @@ footer {
       display: none !important;
     }
   
-    .topnav #myLinks {
-      display: block;
+    #myLinks {
+      display: block !important;
     }
   }
   ul{

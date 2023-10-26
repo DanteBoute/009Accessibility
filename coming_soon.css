@@ -117,7 +117,7 @@ h2 {
     display: none !important;
   }
 
-  .topnav #myLinks {
+  #myLinks {
     display: block !important;
   }
 }
